@@ -1,0 +1,110 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Document</title>
+</head>
+
+<body class="bg-gray-100 pt-10">
+    <header>
+        <nav class="flex fixed top-0 left-0 w-full border-b border-gray-200 bg-white px-6 py-3 ">
+            <div class="flex gap-2">
+                <img class="w-6 h-6 rounded-full" src="img/dark bg .png" alt="Logo">
+                <h4 class="text-sm font-semibold">MyBlog</h4>
+            </div>
+            <ul class="flex ml-auto gap-6">
+                <li><a href="/" class="text-gray-700 hover:text-gray-900">Home</a></li>
+                <li><a href="#" class="text-gray-700 hover:text-gray-900">Articles</a></li>
+                <li><a href="#" class="text-gray-700 hover:text-gray-900">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="bg-gray-100 px-6 py-2 mr-10  ">
+        <div class="ml-6">
+            <div class="flex items-center h-15 ">
+                <p class="text-gray-600 border border-gray-200 rounded-3xl mx-6 px-2 text-sm h-6 ">web Dev</p>
+                <span class=" ml-auto text-sm text-gray-600">Feb 12,2026</span>
+            </div>
+            <h1 class="text-3xl font-serif font-bold ml-6">A Simple Tailwind Blog Post Layout </h1>
+            <div class="flex items-center gap-2 mt-2 ">
+                <img src="img/dari.jpg" alt="" class="w-8 h-8 ml-6  rounded-xl gap-2">
+                <p class="text-sm text-gray-600">by <strong class="text-black">Jane Doe</strong> .5 min read</p>
+            </div>
+            <div class="mt-2 ml-6">
+                <img src="img/tri9.jpg" alt="" class="rounded-2xl w-full object-cover max-h-80 mt-4">
+            </div>
+            <div class="p-6 grid-cols-3 flex gap-8">
+                <div class="bg-white col-span-2 rounded-2xl border border-gray-200 space-y-4 ">
+                    <h4 class="text-black font-bold text-md ml-4 mt-2  ">
+                        Getting started
+                    </h4>
+                    <p class=" text-sm mt-2 px-4 text-gray-800  ">Tailwind is a utility-first CSS framework.
+                        The goal of this exercise is to practice spacing,
+                        typography, and responsive layout using only Tailwind classes </p>
+
+                    <h4 class="text-black font-bold text-md ml-4 mt-2  ">
+                        What to practice
+                    </h4>
+                    <ul class="list-disc list-inside px-4 py-0 text-gray-800 space-y-1">
+                        <li>Container + max width</li>
+                        <li>Grid for sidebar</li>
+                        <li>Cards (border, radius, spacing)</li>
+                        <li>Responsive typography</li>
+                    </ul>
+                    <div class="mx-4 my-4 py-2 rounded-lg border-gray-200 bg-gray-100 text-gray-600">
+                        <span class="p-3 ">Student task: change the theme (colors + font sizes) and improve the
+                            mobile layout.</span>
+                    </div>
+                </div>
+                <div class="col-span-1 space-y-2 rounded-lg  ">
+                    <div class="mb-6 border border-gray-200 bg-white  rounded-2xl px-4 py-2 ">
+                        <h3 class="font-bold p-1 text-gray-700 text-sm">About</h3>
+                        <div class="flex items-start gap-4">
+                            <img src="img/bnt.jpg" alt="Jane Doe" class="w-16 h-16 rounded-full object-cover">
+                            <div>
+                                <p class="font-bold text-dark">Jane Doe</p>
+                                <p class="text-sm text-gray-500 mb-2 ">Frontend Developer</p>
+
+                            </div>
+
+                        </div>
+                        <p class="text-sm text-gray-800 mt-3 ">Minimal bio text goes here.</p>
+                    </div>
+                    <div class=" border border-gray-200 rounded-2xl bg-white w-80 h-32 ">
+                        <h3 class="text-sm font-bold px-3 py-4 text-gray-700 ">Tags</h3>
+                        <div class="flex flex-nowrap gap-2 px-2  ">
+                            <span
+                                class="px-4 py-2 bg-gray-100 text-dark font-medium text-sm rounded-full border border-gray-200   ">
+                                Tailwind
+                            </span>
+                            <span
+                                class="px-4 py-2 bg-gray-100 text-dark font-medium text-sm rounded-full  border border-gray-200">
+                                CSS
+                            </span>
+                            <span
+                                class="px-4 py-2 bg-gray-100 text-dark font-medium text-sm rounded-full  border border-gray-200">
+                                UI
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class=" border-t border-gray-200 bg-white">
+        <div class=" flex items-center text-gray-600 text-md h-15 mr-5 ml-17">
+            <p>@2026 MyBlog</p>
+            <ul class="ml-auto flex gap-4">
+                <li><a href="#"><span>Privacy</span></a></li>
+
+                <li><a href="#"><span>Contact</span></a></li>
+            </ul>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
